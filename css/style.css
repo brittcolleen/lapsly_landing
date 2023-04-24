@@ -1,0 +1,7 @@
+/* css reset*/
+body, header, main, footer, img, p {
+    margin: 0;
+    padding: 0;
+}
+   
+

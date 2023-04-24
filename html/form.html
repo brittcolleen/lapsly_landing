@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lapdog Rehab and Pet Adoption</title>
+    <link rel="icon" type="image/x-icon" href="../assests/logos/PNG/PNG/SM_icon_110px.png">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="therapy dogs, pet adoptions event, Petco, ">
+    <meta name="description" content="landing page for Lapsly pet adoption and therapy dog event">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">  
+</head>
+<body>
+ <fieldset>
+    <legend>Lapdog Rehab and Pet Adoption Sign-up</legend>
+    <form action="" target="_blank" method="post" >
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname"><br>
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="num">Phone Number:</label><br>
+        <input type="tel" id="num" name="num"><br><br> 
+        <p> What Event Will You be Participaing In?</p><br>
+        <input type="radio" id="Therapy Dog Session" name="event" value="Therapy Dog Session">
+        <label for="Therapy Dog Session">Therapy Dog Session</label><br> 
+        <input type="radio" id="Pet Adoption" name="event" value="Pet Adoption">
+        <label for="Pet Adoption">Pet Adoption</label><br>
+        <input type="radio" id="Both" name="event" value="Both">
+        <label for="Both">Both</label><br>
+        <p> Where Did You Hear About This Event?</p><br>
+        <input type="radio" id="WOM" name="participation" value="Word Of Mouth">
+        <label for="WOM">Word of Mouth</label><br>
+        <input type="radio" id="Ad" name="participation" value="Google Ad">
+        <label for="Ad">Google Ad</label><br>
+        <input type="radio" id="search" name="participation" value="Search Query">
+        <label for="search">Search Query</label><br><br>
+        <label for="survey">Other:</label> <br>
+        <input type="text" id="survey" name="survey"><br>
+        <!--I learned this from Stack Overflow linked below -->
+        <!--https://stackoverflow.com/questions/44221250/redirecting-to-a-page-after-submitting-form-in-html-->
+        <input onclick="window.location.href='ty_page.html';" type="submit">
+
+    </form>
+ </fieldset>
+ 
+</body>
+</html>
